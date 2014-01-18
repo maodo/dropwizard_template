@@ -4,7 +4,8 @@
     "source": "https://github.com/ojacquemart/dropwizard_template.git",
     "description" : "Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.",
     "icon" : "https://awesomeicon",
-    "doc-url" : "https://github.com/ojacquemart/lift_template/README.md",
+    "doc-url" : "https://github.com/ojacquemart/dropwizard_template/blob/master/README.md",
+    "app-package" : "https://github.com/ojacquemart/dropwizard_template/blob/master/dropwizard-example-0.6.2.jar",
     "runtime": {
         "type": "java",
         "app-parameters" : {

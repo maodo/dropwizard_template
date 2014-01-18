@@ -20,7 +20,7 @@ import com.yammer.dropwizard.views.ViewBundle;
 
 public class HelloWorldService extends Service<HelloWorldConfiguration> {
     public static void main(String[] args) throws Exception {
-        new HelloWorldService().run(args);
+        new HelloWorldService().run(new String [] { "server", "example.yml" });
     }
 
     private final HibernateBundle<HelloWorldConfiguration> hibernateBundle =

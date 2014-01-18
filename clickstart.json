@@ -6,6 +6,8 @@
     "icon" : "https://awesomeicon",
     "doc-url" : "https://github.com/ojacquemart/dropwizard_template/blob/master/README.md",
     "app-package" : "https://github.com/ojacquemart/dropwizard_template/raw/master/dropwizard-example-0.6.2.jar",
+    "order" : 3,
+    "supported-by" : "community",
     "runtime": {
         "type": "java",
         "app-parameters" : {
@@ -20,7 +22,7 @@
     ],
     "build-with-jenkins": {
         "template": {
-            "type": "maven",
+            "type": "https://raw.github.com/ojacquemart/dropwizard_template/master/jenkins.xml",
             "options": {
             }
         }

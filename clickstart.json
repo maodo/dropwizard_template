@@ -1,3 +1,4 @@
+
 {
     "id": "dropwizard_template",
     "name": "Dropwizard",
@@ -8,16 +9,9 @@
     "runtime": {
         "type": "java",
         "app-parameters" : {
-            "runtime.class": "com.example.helloworld.HelloWorldService",
-            "runtime.server" : "example.yml"
+            "runtime.class": "com.example.helloworld.HelloWorldService"
         }
     },
-    "databases": [
-        {
-            "type": "mysql",
-            "alias": "dwDb"
-        }
-    ],
     "build-with-jenkins": {
         "template": {
             "type": "maven",

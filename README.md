@@ -39,3 +39,7 @@ To test the example application run the following commands.
 * To run the server run.
 
         java -jar target/dropwizard-example-0.6.2.jar server example.yml
+
+
+* To test the clickstart template
+        https://grandcentral.cloudbees.com/#CB_clickstart=https://raw.github.com/ojacquemart/dropwizard_template/master/clickstart.json
